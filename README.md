@@ -1,2 +1,4 @@
 # Pong-Game-
-This game is the famous old-school pong game. I created this pong game using the Turtle Module in python. 
+This is the famous old-school pong game. I programmed this pong game using the Turtle Module in python. This game involves two players who will control paddle_a and paddle_b. The change in this ball's distance in x-coordinates is 0.1 and in y-coordinates is -0.1. 
+**How does this game work?** 
+The motive of the players should be to make sure that the ball does above the x-coordinates of 350 and -350, in their respective sides. Basically, they should make sure that their paddles contact the ball, resulting it to change its direction and head in the opposite direction. If the ball crosses the x-coordinates of 350 or -350, the ball will go back to the center coordinate (0,0) and will head towards the opposite of the 350/-350 coordinate side which it crossed. If the players are not able to "hit" the balls with their paddles, then the ball will go beyond the 350/-350 x-coordinate and a point will be rewarded to the opposite player(using the score board displayed above)
